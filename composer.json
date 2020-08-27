@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=5.6",
-        "opencensus/opencensus": "~0.5",
+        "opencensus/opencensus": "dev-master",
         "google/cloud-trace": "~0.9"
     },
     "require-dev": {
@@ -18,7 +18,8 @@
             "email": "chingor@google.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "OpenCensus\\Trace\\Exporter\\": "src/"
